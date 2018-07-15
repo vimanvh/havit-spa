@@ -1,0 +1,14 @@
+{
+	"name": "generator-havit-spa",
+	"version": "0.1.0",
+	"description": "Generator of Havit SPA application based on React/Typescript/Bootstrap",
+	"files": [
+		"generators"
+	],
+	"keywords": [
+		"yeoman-generator"
+	],
+	"dependencies": {
+		"yeoman-generator": "^1.0.0"
+	}
+}

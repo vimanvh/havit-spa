@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "bin",
+    "node_modules",
+    "wwwroot/dist"
+  ]
+}

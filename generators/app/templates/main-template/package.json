@@ -1,0 +1,56 @@
+{
+  "name": "<%= appname %>",
+  "private": true,
+  "devDependencies": {
+    "@types/extract-text-webpack-plugin": "^3.0.3",
+    "@types/hard-source-webpack-plugin": "^0.9.0",
+    "@types/node": "8.0.52",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/reactstrap": "^5.0.20",
+    "@types/tapable": "^1.0.4",
+    "@types/toastr": "2.1.35",
+    "@types/uglifyjs-webpack-plugin": "^1.1.0",
+    "@types/webpack": "^3.8.5",
+    "@types/webpack-bundle-analyzer": "^2.9.2",
+    "@types/webpack-env": "1.13.5",
+    "awesome-typescript-loader": "3.4.1",
+    "bootstrap": "^4.1.1",
+    "css-loader": "0.28.9",
+    "exports-loader": "0.7.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.6",
+    "font-awesome": "4.7.0",
+    "font-awesome-loader": "1.0.2",
+    "hard-source-webpack-plugin": "^0.5.18",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "node-sass": "4.7.2",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reactstrap": "^6.0.1",
+    "resolve-url-loader": "2.2.1",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.20.1",
+    "toastr": "^2.1.4",
+    "typescript": "^2.9.2",
+    "uglifyjs-webpack-plugin": "1.1.8",
+    "webpack": "3.10.0",
+    "webpack-bundle-analyzer": "2.10.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "start:hmr": "webpack-dev-server --inline --hot",
+    "watch": "webpack --watch",
+    "build:dev": "webpack",
+    "build:prod": "webpack --env.prod",
+    "lock-dependencies": "npm prune && npm dedupe && npm shrinkwrap"
+  },
+  "-vs-binding": {
+    "ProjectOpened": [
+      "build:dev"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/viman/Projekty/ReactTypeScriptGenerator"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"bin": true,
+			"obj": true,
+			"Controllers": true,
+			"Properties": true,
+			"Settings": true,
+			"Views": true,
+			"Infrastructure": true,
+			"TagHelpers": true,
+			"node_modules": true,
+			"**/.DS_Store": true,
+			"**/._.DS_Store": true,
+			"app.config": true,
+			"appsettings*.json": true,
+			"*.cs": true,
+			"*.csproj": true
+		},
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"git.enabled": true
+	}
+}
